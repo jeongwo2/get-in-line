@@ -1,7 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/java,intellij+all,visualstudiocode,gradle,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,intellij+all,visualstudiocode,gradle,macos
 
-### Common
+### Common gitignore
 HELP.md
 
 ### Java ###
@@ -56,3 +56,5 @@ bin/
 
 ### VS Code ###
 .vscode/
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
