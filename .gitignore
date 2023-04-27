@@ -1,0 +1,58 @@
+# Created by https://www.toptal.com/developers/gitignore/api/java,intellij+all,visualstudiocode,gradle,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,intellij+all,visualstudiocode,gradle,macos
+
+### Common
+HELP.md
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+### Gradle ###
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.idea/**/gradle.xml
+.idea/**/libraries
+
+### IntelliJ IDEA ###
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+.idea
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
